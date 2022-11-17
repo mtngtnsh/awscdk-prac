@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
+  - package-ecosystem: "aws-cdk" # See documentation for possible values
     directory: "/infra" # Location of package manifests
     schedule:
       interval: "weekly"
