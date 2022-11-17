@@ -9,3 +9,8 @@ updates:
     directory: "/infra" # Location of package manifests
     schedule:
       interval: "weekly"
+    reviewers:
+      - "mtngtnsh"
+    labels:
+      - "package.json"
+      - "triage-board"
