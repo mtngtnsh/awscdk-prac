@@ -8,9 +8,19 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/infra" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
     reviewers:
       - "mtngtnsh"
     labels:
       - "dependencies"
       - "package.json"
+  
+  - package-ecosystem: "npm"
+    directory: "/infra"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "mtngtnsh"
+    labels:
+      - "dependencies"
+      - "package-lock.json"
